@@ -1,6 +1,6 @@
 "use server";
 
-var TODOS: string[] = [];
+var TODOS: string[] = ["Go to the market", "Buy some food", "Prepare dinner"];
 
 export const getTodos = async () => {
   return TODOS;
